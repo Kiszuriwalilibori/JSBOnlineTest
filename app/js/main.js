@@ -368,6 +368,7 @@ let view;
 let controller;
 
 function initializer(storageLocation, remoteLocation) {
+  console.log(remoteLocation);
   const pageNodes = {
     booksContainer: document.getElementById("booksContainer"),
     pageQueryInput: document.getElementById("pageQueryInput"),
